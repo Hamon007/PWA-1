@@ -3,7 +3,7 @@
 // Offline-Fähigkeit für PWA
 // ═══════════════════════════════════════════════════════
 
-const CACHE_NAME = 'reborn-v1.0';
+const CACHE_NAME = 'reborn-v2.0';
 
 const CACHE_FILES = [
   './',
@@ -14,7 +14,10 @@ const CACHE_FILES = [
   './src/data/akt1.js',
   './src/data/akt2.js',
   './src/data/akt3.js',
-  // Weitere Akte werden hier ergänzt
+  './src/data/akt4.js',
+  './src/data/akt5.js',
+  './src/data/akt6.js',
+  // Vollständig
 ];
 
 // Installation: alle Dateien in den Cache laden
