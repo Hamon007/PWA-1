@@ -14,80 +14,56 @@ export const AKT_III = {
 
   // ════ ZEITSPRUNG: DIE DREI VERLORENEN JAHRE ════════════════════════════
 
+  // ════ ZEITSPRUNG: DREI JAHRE IN KREUZWEG ════════════════════════════════
+
   a3k0_zeitsprung: {
     act: "AKT III",
     chapter: "Zeitsprung — Drei Jahre in Kreuzweg",
     title: "Die verlorenen Jahre",
-    scene: "Kreuzweg, Valtheris — Alter: 8–10 Jahre",
+    scene: "Kreuzweg, Valtheris — Alter: 7–10 Jahre",
     bg: "city",
-    music: "theme_void_terminal",
+    music: "theme_family",
+    text: `Kreuzweg war die erste Station.
 
-    // [SC] Referenz: reiseziel-Flag aus Akt II wird hier ausgewertet
-    textConditional: {
-      akademie: `Aldwins »Kontakte« stellten sich als eine mürrische alte Alchemistin namens Frau Voss heraus, die einen Keller besaß und wenig Fragen stellte.`,
-      sylvanthos: `Aldwins »Kontakte« waren ein Elfenwald-Wächter namens Syl, der Menschen normalerweise nicht mochte — aber für eine Person, die Wilde Magie ohne System benutzen konnte, eine Ausnahme machte.`,
-      irondeep: `Aldwins »Kontakte« waren ein zwergischer Schmied namens Borrak, der jeden menschlichen Besucher für einen Dummkopf hielt — bis er Kaito sprechen hörte. Dann nur noch für einen kleinen Dummkopf.`,
-      allein: `Kaito hatte keine Kontakte. Er hatte Kreuzweg aus eigener Kraft durchquert und sich als Informant bei der Abenteurer-Gilde gemeldet.`,
-      default: `Aldwins »Kontakte« stellten sich als eine mürrische alte Alchemistin namens Frau Voss heraus, die einen Keller besaß und wenig Fragen stellte.`,
-    },
+Dreißig Menschen, drei Karren, ein mürrischer Esel namens Herr Grummel. Roland fand Arbeit als Wachmann. Elena heilte Marktkunden für Kupfermünzen. Mira terrorisierte die Nachbarskinder mit unbegründetem Enthusiasmus.
 
-    text: `Jahr 1 in Kreuzweg — Alter 8:
+Aldwins Kontaktin hieß Frau Voss — eine mürrische alte Alchemistin mit einem Keller voller verbotener Bücher und der Überzeugung, dass jeder Mensch unter sechzig Jahren prinzipiell zu laut war. Sie ließ Kaito lesen. Alles. Ohne Fragen.
 
-Wir kamen als Flüchtlinge an. Dreißig Menschen ohne Zuhause. Die Stadt war groß, laut, gleichgültig.
+In drei Jahren las er jedes Buch, das Frau Voss besaß. Dann die öffentliche Bibliothek. Dann fing er an, eigene zu schreiben: »Reverse-Engineering des Genesis-Systems.« Version 0.1.
 
-Roland fand Arbeit als Wachmann bei einem Händler. Elena heilte Marktkunden für Kupfermünzen. Mira ging zur Dorfschule und terrorisierte ihre Mitschüler mit Enthusiasmus.
+Nebenbei: Informant bei der Abenteurer-Gilde. Dungeon-Analysen, anonym, präzise, übermenschlich genau. Niemand wusste, wer die »quellenlose Analyse« verfasste. Kaito war acht Jahre alt.
 
-Ich las. Studierte. Trainierte. Jeden Tag. Gregors Tagebuch, Aldwins hinterlassene Bücher, jedes Buch in der öffentlichen Bibliothek von Kreuzweg. Nachts übte ich Wilde Magie — allein, auf dem Dach, wo niemand hinschaute.
+Finn trainierte täglich mit Roland. Sera zog sich zurück, trainierte allein im Wald. Wenn Kaito sie abends auf dem Dach fand, sagten sie manchmal stundenlang nichts — und das Schweigen war kein leeres.
 
-Finn trainierte mit Roland. Sein Talent war beeindruckend — Level 4 mit acht Jahren. Roland sagte: »Der Junge hat das Herz eines Löwen und den Dickschädel eines Maulesels. Er wird ein großer Krieger.«
+Dann, an einem Dienstag im dritten Jahr: ein Brief. Versiegelt mit dem kaiserlichen Wappen. Adressiert an »Kaito Ashford, potenzieller Student«.
 
-Sera kämpfte. Ihr Dämonenerbe war aktiv, unterdrückt, oder teilweise frei — je nachdem, was ich ihr damals gesagt hatte. Sie zog sich zurück. Ich suchte sie abends auf, wenn die Stadt schlief. Wir redeten. Oder schwiegen. Beides half.`,
+Die Kaiserliche Akademie für Helden in Aetheria Prime akzeptierte seine Bewerbung.
 
-    text2: `Jahr 2 in Kreuzweg — Alter 9:
+Elena weinte. Roland nickte. Mira schrie: »ICH WILL AUCH!« Aldwin erschien aus dem Nichts — wie er es immer tat — und legte seinen Brief auf den Tisch.
 
-Die Abenteurergilde. Ich registrierte mich — nicht als Abenteurer (zu jung), sondern als INFORMANT. Rang-F-Quests, die kein normaler Abenteurer wollte: »Identifiziere dieses Monster«, »Analysiere diesen Dungeon-Eingang«, »Welche Pflanzen sind das?«
+»Ich habe dafür gesorgt, dass die richtigen Leute deine Analysen gelesen haben. Die Gilde hat sie weitergeleitet. Die Akademie dachte, ein erwachsener Rang-B-Analytiker bewirbt sich. Als sie merkten, dass es ein Zehnjähriger ist — waren sie interessiert.«
 
-Mein [Code.Read] machte mich zum perfekten Analysten. Die Gilde zahlte in Silber. Niemand fragte, warum ein Neunjähriger besser analysierte als die meisten Rang-D-Abenteurer.
+»Das ist nicht gefährlich?«
 
-Void-Terminal-Update: [Code.Analyze] erreichte ein neues Niveau. Ich konnte jetzt nicht nur einzelne Entitäten lesen, sondern SYSTEME — die Art, wie Skills interagierten, wie das System Erfahrungspunkte verteilte, wie Dungeon-Generierung funktionierte.
+»Alles ist gefährlich. Die Frage ist: Wo lernst du am meisten?«
 
-Ich begann, ein HANDBUCH zu schreiben. In Alt-Aetherisch, damit niemand es lesen konnte. »Reverse-Engineering des Genesis-Systems.« Version 0.1.
+Kaito schwieg. Dann: »Im Herzen des Systems.«
 
-Jahr 3 in Kreuzweg — Alter 10:
-
-Der Brief kam an einem Dienstag. Versiegelt mit dem kaiserlichen Wappen. Adressiert an »Kaito Ashford, potenzieller Student«.
-
-Die Kaiserliche Akademie für Helden in Aetheria Prime akzeptierte meine Bewerbung.
-
-Elena weinte. Roland nickte. Mira schrie: »ICH WILL AUCH!«
-
-Und ich packte meinen Rucksack.
-
-In den Bauch der Bestie.`,
-
+Aldwin lächelte — zum ersten Mal seit Millheim. »Dann geh.«`,
     systemBox: {
-      title: "VOID-TERMINAL — STATUS UPDATE (Alter 10)",
+      title: "VOID-TERMINAL — STATUS (Alter 10)",
       lines: [
-        "> BEFEHLE:",
         "> [Code.Read] — Fortgeschritten",
         "> [Code.Analyze] — Fortgeschritten",
-        "> [Code.Spoof] — Stabil (überzeugt bis Rang B-)",
+        "> [Code.Spoof] — Stabil (Rang B-)",
         "> [Aether.Resonance] — Kontrolle verbessert",
-        "> [Code.Modify] — GESPERRT (Theorie: 40%)",
         ">",
-        "> WILDE MAGIE:",
-        "> [Funke] → [Flamme] (kontrolliert)",
-        "> [Windhauch] (neu — rudimentär)",
-        "> [Erdgespür] (neu — Vibrationen fühlen)",
-        "> [Aether-Sicht] (neu — Aether-Ströme sehen)",
+        "> Handbuch: »Reverse-Engineering des Genesis-Systems« v0.3",
         ">",
-        "> WISSEN:",
-        "> System-Architektur: 40% verstanden",
-        "> Gregors Tagebuch: 65% analysiert",
-        "> Reverse-Engineering-Handbuch: v0.3",
+        "> Nächstes Ziel: Kaiserliche Akademie, Aetheria Prime.",
+        "> Aldwin: »In den Bauch der Bestie.«",
       ]
     },
-
     choices: [{ text: "→ Kapitel 12: Aetheria Prime", next: "a3k1_aetheria" }],
   },
 
@@ -519,6 +495,7 @@ Ich wählte wen ich ZUERST anspreche — der erste Kontakt prägt die Dynamik am
         next: "a3k4_akira",
         affinityEffect: { akira: 10 },
         flagEffect: { heldenErsterKontakt: "akira" },
+        narrativeFeedback: "Akira schaut überrascht auf — er hatte niemanden erwartet. Dann grinst er, breit und echt. »Endlich jemand, der nicht einfach zuschaut.«",
       },
       {
         text: "B) EMMA — In der Bibliothek beim Recherchieren.",
@@ -526,6 +503,7 @@ Ich wählte wen ich ZUERST anspreche — der erste Kontakt prägt die Dynamik am
         next: "a3k4_emma",
         affinityEffect: { emma: 10 },
         flagEffect: { heldenErsterKontakt: "emma" },
+        narrativeFeedback: "Emma hebt den Kopf. Schaut ihn prüfend an, ohne Wärme. Dann: »Setz dich. Aber kommentiere nicht meine Notizen.«",
       },
       {
         text: "C) DMITRI — Im Hof beim Helfen.",
@@ -533,6 +511,7 @@ Ich wählte wen ich ZUERST anspreche — der erste Kontakt prägt die Dynamik am
         next: "a3k4_dmitri",
         affinityEffect: { dmitri: 10 },
         flagEffect: { heldenErsterKontakt: "dmitri" },
+        narrativeFeedback: "Dmitri nickt knapp. Reicht Kaito einen Eimer. Kein Wort. Aber nach einer Weile sagt er leise: »Du arbeitest sauber.«",
       },
       {
         text: "D) YUKI — Am Rand der Arena, allein.",
@@ -541,6 +520,7 @@ Ich wählte wen ich ZUERST anspreche — der erste Kontakt prägt die Dynamik am
         affinityEffect: { yuki: 10 },
         flagEffect: { heldenErsterKontakt: "yuki" },
         alignEffect: { licht: 1 },
+        narrativeFeedback: "Yuki schaut auf — erschrocken. Dann, als sie merkt, dass er einfach neben ihr sitzt ohne etwas zu wollen, entspannt sie sich. Zentimeter für Zentimeter.",
       },
     ]
   },
@@ -1441,5 +1421,38 @@ Mach uns stolz, Aelthar.
     choices: [{ text: "→ AKT IV: Elevation — Die Nullen entstehen", next: "a4k1_intro" }],
     skillUnlock: ["codeCopy"],
     wissenEffect: ["nullZoneExistenz"],
+  },
+
+  // ════ AKT IV PLATZHALTER ═══════════════════════════════════════════════
+  a4k1_intro: {
+    act: "AKT IV",
+    chapter: "Kapitel 21 — Elevation.Init()",
+    title: "AKT IV — Die Nullen entstehen",
+    scene: "Aethermere — Alter: 15–18 Jahre",
+    bg: "night",
+    music: "theme_void_terminal",
+    text: `Drei Jahre. Das Update nähert sich.
+
+In drei Jahren wird das Genesis-System ein Update durchführen, das jede Anomalie, jede Wilde Magie, jede Freiheit für immer auslöscht.
+
+Kaito — jetzt bekannt als NULL — hat diese drei Jahre genutzt.
+
+Er ist nicht mehr allein.
+
+Die Nullen entstehen.
+
+[Akt IV — in Entwicklung]`,
+
+    systemBox: {
+      title: "VOID-TERMINAL",
+      lines: [
+        "> AKT IV: »Elevation« folgt in Kürze.",
+        "> Kapitel 21–30.",
+        ">",
+        "> — S.: »Du hast mehr Mut als erwartet.«",
+      ]
+    },
+
+    choices: [{ text: "→ Zum Hauptmenü", next: "__title__" }],
   },
 };
